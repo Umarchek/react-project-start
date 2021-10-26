@@ -28,7 +28,6 @@ export const NavbarContainer = styled.div`
     max-width:1100px;
 `;
 export const NavLogo = styled(LinkR)`
-    color:red;
     justify-self:flex-start;
     cursor:pointer;
     font-size:1.5rem;
@@ -77,5 +76,13 @@ export const NavLinks = styled(LinkS)`
 
     &.active{
         border-bottom: 3px solid #01bf71;
+    }
+`
+export const NavBtn = styled.nav`
+    display:flex;
+    align-items:center;
+
+    @media screen and (max-width:768px){
+        display:none;
     }
 `
