@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './components/Navbar/index'
 import './App.css'
 function App() {
   return (
     <div className="App">
-      <h1>What's upppp</h1>
+      <Navbar/>
     </div>
   );
 }
